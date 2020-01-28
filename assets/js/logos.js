@@ -19,11 +19,8 @@ const Database = [
 
 
 const Choices = [
-    Divertissement = {img:"assets/img/UI/divertissement_title.png", description:  max_rounds + " logos liés à l'univers du divertissement à retrouver."},
-    Technologie = {img:"assets/img/UI/technologie_title.png", description:  max_rounds + " logos liés à la technologie à retrouver."},
-    Entreprise = {img:"assets/img/UI/entreprise_title.png", description:  max_rounds + " logos d'entreprises à retrouver."},
-    Mix = {img:"assets/img/UI/mix_title.png", description: max_rounds + " logos mélangés dans toutes les catégorie"}
+    Divertissement = {img:"assets/img/UI/divertissement_title.png", description: "Retrouve les " + max_rounds + " logos liés à l'univers du divertissement."},
+    Technologie = {img:"assets/img/UI/technologie_title.png", description: "Retrouve les " + max_rounds + " logos liés à l'univers de la technologie."},
+    Entreprise = {img:"assets/img/UI/entreprise_title.png", description: "Retrouve les " + max_rounds + " logos d'entreprises à retrouver."},
+    Mix = {img:"assets/img/UI/mix_title.png", description: "Retrouve les " + max_rounds + " logos liés à l'univers du digital"}
 ]
-
-console.log(Divertissement.img);
-console.log(Divertissement.description);
