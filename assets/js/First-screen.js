@@ -6,7 +6,16 @@ $(".Choices").click(function(){
     // console.log(logos);
     start_game = true;
     $("#First_screen").hide();
-    Start_Game();
+    $("#transition").show();
+
     Timer(); 
 });
-    
+
+
+// function transition_screen(){
+//     $("").click(function(){
+//         $("#transition").hide();
+//         Start_Game();
+
+//     }
+// }
