@@ -7,6 +7,11 @@
   src: url("../fonts/Gotham/Gotham-Medium.ttf") format("medium");
  }
 
+ img{
+   user-select: none;
+   
+ }
+
 *{
   margin:0;
   padding: 0;

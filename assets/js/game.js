@@ -27,8 +27,8 @@ function generateButtons() {
     
     for (var i = 0; i < seq.length; i++) {
         $("#Logo_Name").html(logo)
-        $( "#buttons" ).append( '<div><div class="logos" id="logo_'+seq[i]+'"><img src="assets/img/'+logo+'_'+seq[i]+'.png" height="60%" width="60%" /></div></div>' ); 
-      };
+        $( "#buttons" ).append( '<div><div class="logos" id="logo_'+seq[i]+'"><img draggable="false" src="assets/img/'+logo+'_'+seq[i]+'.png" height="60%" width="60%" /></div></div>' ); 
+      };  
       
         clicked = false;
         

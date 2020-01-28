@@ -1,6 +1,6 @@
 //Timer
 function Timer(){
-  if (play == true) {
+  if (play === true) {
     
   
     timer_interval = window.setInterval(

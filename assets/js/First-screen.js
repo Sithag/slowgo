@@ -4,18 +4,16 @@ $(".Choices").click(function(){
     l = $(this).attr("id");
     logos = Database[l[0]];
     // console.log(logos);
-    start_game = true;
     $("#First_screen").hide();
+    console.log(Choices[l])
     $("#transition").show();
 
-    Timer(); 
 });
 
 
-// function transition_screen(){
-//     $("").click(function(){
-//         $("#transition").hide();
-//         Start_Game();
+    $("#start").click(function(){
+        $("#transition").hide();
+        Start_Game();
+        Timer(); 
 
-//     }
-// }
+    })
