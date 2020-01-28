@@ -22,3 +22,10 @@
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
   }
+  
+
+  #description{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }

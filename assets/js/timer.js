@@ -10,6 +10,7 @@ function Timer(){
         // console.log(timer)
     }
     if (timer <= 7) {
+        clicked = true
         time_out();
         nextQuestion();
 
