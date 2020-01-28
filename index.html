@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slowgo</title>
+    <link rel="stylesheet" href="assets/css/game_page.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Choices.css">
+    <link rel="stylesheet" href="assets/css/end_page.css" >
+    <link rel="stylesheet" href="assets/css/transition_page.css">
+  </head>
+  <body>
+
+    <section id="First_screen">
+      <div class="Choices Divertissement" id="0">
+        
+        <img src="assets/img/UI/divertissement.png" alt="" height="95%" width="95%" onmouseover="$(this).attr( 'src', 'assets/img/UI/divertissement_hover.png' )" onmouseout="$(this).attr( 'src', 'assets/img/UI/divertissement.png' )">
+        
+      </div>
+
+      <div class="Choices technologie" id="1">
+        
+        <img src="assets/img/UI/technologie.png" alt="" height="95%" width="95%" onmouseover="$(this).attr( 'src', 'assets/img/UI/technologie_hover.png' )" onmouseout="$(this).attr( 'src', 'assets/img/UI/technologie.png' )">
+
+      </div>
+
+      <div class="Choices entreprise" id="2">
+    
+        <img src="assets/img/UI/entreprise.png" alt="" height="95%" width="95%" onmouseover="$(this).attr( 'src', 'assets/img/UI/entreprise_hover.png' )" onmouseout="$(this).attr( 'src', 'assets/img/UI/entreprise.png' )">
+ 
+      </div>
+
+
+      <div class="Choices All" id="3">
+       
+        <img src="assets/img/UI/mix.png" alt="" height="95%" width="95%" onmouseover="$(this).attr( 'src', 'assets/img/UI/mix_hover.png' )" onmouseout="$(this).attr( 'src', 'assets/img/UI/mix.png' )">
+        
+      </div>
+    </section>
+    
+    
+    <!-- <section id="transition">
+      <img src="assets/img/UI/divertissement_title.png" alt="">
+      <p id="description"></p>
+      <button id="restart">Rejouer</button>
+    </section>  -->
+
+    <section  id="game_screen" class="game">
+
+
+      <div>
+      <div id="Timer" class="timer_out">10</div>
+      </div>
+
+      
+    <section >
+      <div id="Logo_Name" class="timer_out">Logoname</div>
+      <div id="buttons" class="timer_out"></div>
+    </section>
+
+
+      <section id="Questions_left">
+          <p>Questions</p>
+          <h3 id="advancement"></h3>
+
+        </section>
+
+    </section>
+
+
+
+
+    <div class="end_screen" id="endsection">
+      <img id="logo" src="assets/img/UI/logo.png" alt="slowgo logo" height="20%">
+      <h2>ton score</h2>
+      <h3 id="fin"></h3>
+      <form>
+        <button id="restart">
+          Rejouer
+        </button>
+      </form>
+    </div>
+
+
+<audio id="Incorect" src="assets/sounds/false.WAV"></audio>
+<audio id="Correct" src="assets/sounds/true.WAV"></audio>
+
+      <script src="assets/js/jquery-3.4.1.min.js"></script>
+      <script src="assets/js/First-screen.js"></script>
+      <script src="assets/js/logos.js"></script>
+      <script src="assets/js/var.js"></script>
+      <script src="assets/js/functions.js"></script>
+      <script src="assets/js/game.js"></script>
+      <script src="assets/js/timer.js"></script>
+      <script src="assets/js/app.js"></script>
+  </body>
+</html>

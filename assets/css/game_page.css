@@ -1,0 +1,69 @@
+#game_screen{
+    text-align: center;
+    width: 100%;
+    background-image: url('../img/UI/background.jpg');
+    height: 100vh;
+    max-height: 100vh;
+  
+  }
+
+#Timer{
+    font-size: 72px;
+    padding-top:80px ;
+    color: white;
+
+  }
+
+  #Logo_Name{
+    margin-top: 40px ;
+    font-size: 50px;
+    text-align:center;
+    text-transform: lowercase;
+    color: white;
+  }
+
+  #Logo_Name::first-letter{
+    text-transform: uppercase;
+  }
+
+  #buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }  
+
+  
+.logos{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  /* border: solid;
+  border-width: 3px;
+  border-color: grey;
+  box-shadow: 2px 2px 5px grey; */
+  cursor: pointer;
+  margin: 0 20PX;
+}
+
+#Questions_left{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+#Questions_left p{
+  font: 12px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+ 
+  

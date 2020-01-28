@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham/Gotham-Medium.ttf") format("medium");
+ }
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Gotham', sans-serif;
+}
+
+
+
+
+#Game_name{
+  padding: 0px 0px;
+  font-size: 36px;
+}
+
+
+
+
+.logos img{
+  transition: height 0.2s,width 0.2s;
+  
+}
+
+.logos img:hover{
+ width: 80%;
+ height: 80%;
+}
+
+.logos img:focus{
+  width: 40%;
+ height: 40%;
+}
+
+
+
+
+
+
+#next span {
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#next span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#next:hover span {
+  padding-right: 25px;
+}
+
+#next:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.result#logo_0{
+  background-image: url(../img/UI/true.jpg);
+  background-position: center;
+  /* height: 300px;
+  width: 300px; */
+}
+.result#logo_0 img{
+  display: none;
+}
+
+.result#logo_1, .result#logo_2, .result#logo_3{
+  background-image: url(../img/UI/false.jpg);
+  background-position: center;
+}
+
+.result#logo_1 img, .result#logo_2 img, .result#logo_3 img{
+  display: none;
+
+}
+
+.invisible{
+  height: 0px;
+  width: 0px;
+  background-color: white;
+  display: none;
+}
