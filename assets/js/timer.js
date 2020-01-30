@@ -8,17 +8,26 @@ function Timer(){
         if (timedecrease === true){
         Display_timer();
         // console.log(timer)
+
     }
+
+    if (timer == 40 || timer == 30 || timer == 20){
+      timer_audio();
+     
+    }
+
     if (timer <= 7) {
         clicked = true
         time_out();
         nextQuestion();
-
     }
     }, 100);
 
 
   }};
+
+    
+
   
   //Affichage du Timer
   function Display_timer(){  
@@ -44,5 +53,17 @@ function Timer(){
       advancement_update();
       // $(".game").hide();
       $('.logos').show().fadeOut(delay);
+      time_out_audio();
+
 
   }
+
+
+function time_out_audio(){
+  time_out_sound.play();
+}
+
+function timer_audio(){
+    timer_sound.play();
+  }
+

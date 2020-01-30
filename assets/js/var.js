@@ -1,7 +1,7 @@
 var start_game = false;
 var logos
 var delay = 400;
-const max_rounds = 40;
+const max_rounds = 123;
 var nbround = max_rounds;
 var points = 0;
 var increment = 1;
@@ -10,7 +10,11 @@ var timer = countdown;
 let timedecrease = true;
 var Incorect = document.getElementById("Incorect");
 var Correct = document.getElementById("Correct");
+var timer_sound = document.getElementById("Decompte")
+var time_out_sound = document.getElementById("time_out_sound")
 var clicked = false;
 var loaded = false;
 var play = true;
 var advancement = 0;
+const sound_delay = 1000;
+var timer_Sound_delay = sound_delay;
