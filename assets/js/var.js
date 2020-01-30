@@ -1,7 +1,7 @@
 var start_game = false;
 var logos
 var delay = 400;
-const max_rounds = 140;
+const max_rounds = 40;
 var nbround = max_rounds;
 var points = 0;
 var increment = 1;
